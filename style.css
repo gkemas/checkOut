@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.email,
+.phone,
+.name,
+.adress,
+.city,
+.coun,
+.po {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+body {
+  height: 500px;
+  line-height: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+}
+div.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+div.contact {
+  margin-bottom: 80px;
+}
+div.container div.sag {
+  margin-left: 70px;
+  padding: 10px;
+}
+div.container div.sol {
+  width: 30%;
+}
+div.container div.sag {
+  width: 20%;
+  background-color: #eeeeee;
+  height: 450px;
+  border-radius: 10px;
+}
+div.post,
+div.country {
+  display: inline-block;
+}
+div.ust,
+div.alt {
+  display: flex;
+  margin: 25px;
+  gap: 10px;
+}
+div.sag div.ship {
+  margin: 25px;
+}
+div.sol div input {
+  border: none;
+  outline: none;
+}
+
+#countr {
+  border: none;
+}
+.button {
+  border: 1px solid black;
+  text-align: center;
+  width: 70px;
+}
+.button button {
+  width: 15px;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: center;
+}
+p.dolar{
+font-weight: 900;
+color: orange;
+}
