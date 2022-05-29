@@ -13,7 +13,10 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -119,8 +122,10 @@
               $54.99 <small><del>$94.99</del></small>
             </p>
             <div class="button">
-              <button>-</button><span> 1 </span><button>+</button>
+              <button id="btn1">-</button><span id="d1"> 10 </span
+              ><button id="btn2">+</button>
             </div>
+            <p id="product1">Product Total:<span>54</span></p>
           </div>
         </div>
         <div class="alt">
@@ -133,16 +138,20 @@
               $74.99 <small><del>$124.99</del></small>
             </p>
             <div class="button">
-              <button>-</button><span> 1 </span><button>+</button>
+              <button id="btn3">-</button><span id="d2"> 1 </span
+              ><button id="btn4">+</button>
             </div>
+            <p id="product2">Product Total:<span>54</span></p>
           </div>
         </div>
         <div class="ship">
           <hr />
-          <p>Shipping $19</p><hr>
-          <p>Total $148.98</p>
+          <p>Shipping $19</p>
+          <hr />
+          <p id="total1">Total $148.98</p>
         </div>
       </div>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
